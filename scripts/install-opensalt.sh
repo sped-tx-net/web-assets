@@ -16,4 +16,6 @@ cd opensalt
 git checkout help
 cp .env.dist .env
 sudo make up
+sudo make force-build
+sudo make migrate
 echo "INSTALLATION COMPLETE!"
